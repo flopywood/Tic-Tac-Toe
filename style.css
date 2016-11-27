@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: Arial;
+}
+h1{
+  padding: 2%;
+}
+div.row {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.cell {
+  border: 2px solid white;
+  background: #FF6363;
+  width: 30%;
+  height: 100px;
+  margin: 0.1%;
+  color: #fff;
+  font-size: 4em!important;
+}
+.pickUser{
+  padding: 2%;
+}
+
+#message{
+  font-size: 2em;
+}
