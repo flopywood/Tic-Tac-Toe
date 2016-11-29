@@ -17,8 +17,8 @@ $(document).ready(function(){
   //Change player according to input
   $("#turnX").click(function(){
     reset();
-    turn = "O";
-    programsTurn = "X";
+    turn = "X";
+    computersTurn = "O";
     $("#turnX").addClass("btn-primary");
     $("#turnO").removeClass("btn-primary");
   });
@@ -26,7 +26,7 @@ $(document).ready(function(){
   $("#turnO").click(function(){
     reset();
     turn = "O";
-    programsTurn = "O";
+    computersTurn = "X";
     $("#turnO").addClass("btn-primary");
     $("#turnX").removeClass("btn-primary");
   });
